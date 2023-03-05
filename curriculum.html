@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CURRICULUM VITAE</title>
+    <link rel="icon" type="image/x-icon" href="https://cdn-icons-png.flaticon.com/512/40/40451.png">
+    <link rel="stylesheet" type="text/css" href="estilocv.css" />
+</head>
+<body>
+
+ <h1 class="uno"> CURRICULUM VITAE</h1> 
+
+     <img class="imagen" src="https://randomuser.me/api/portraits/men/20.jpg" alt="Foto de Logan Dean">
+   
+   <FIELdset>
+    <UL>
+
+      <h1 class="uno">DATOS PERSONALES</h1>
+    <LI> Nombre :Logan Dean </LI>
+    <LI>Fecha de nacimiento : 01/04/1988</LI>
+    <LI>Nacionalidad : Argentina</LI> 
+    <LI>Direccion : Rolling Green 9473 - Hurlingham</LI>
+    <LI>Email : logan.dean@gmail.com</LI>
+    <LI>Telefono : (351)547-5707</LI>
+    
+    </UL>
+</div>
+    </FIELdset>
+    <div>
+    <h2 class="uno"> FORMACION ACADEMICA</H2>
+   <p><strong> Estudios secundarios completos </strong></p>
+    <LI> Colegio Aleman, Hurlingham,Bs As,Argentina </LI>
+   <p> <strong> Estudios Universitarios completos. </strong></p>
+    <LI>universidad Nacional de Buenos Aires.Carrera de Licenciatura en Economia </li>
+
+
+    <h2 class="dos">SEMINARIOS</H2>
+    <li> Recupero de reintegros de exportacion </li>
+   <li>Programa intensivo de Comercio Internacional </li>
+    
+
+    <h2 class="dos">IDIOMAS</H2>
+    <p><strong>Ingles:Nivel intermedio </strong>.Redaccion fluida.Aprobados los tres niveles universitarios obligatorios</p>
+    <p><strong>Aleman:Nivel basico</strong></p>
+
+    
+    
+
+    <h2 class="uno">EXPERIENCIA LABORAL</H2>
+
+    <li> 2005-2006 Profesor adjunto de la materia “Análisis Economico latinoamericano”, impartida por el profesor Raúl Sevilla en los semestres 2005-2 y 2006-1 en la Facultad de Ciencias Políticas y Sociales de la Universidad Nacional Autónoma de Buenos Aires</li>
+    <li>2007-2009 Investigador en el Instituto de Investigaciones Economicas de la Universidad Nacional Autónoma de Buenos Aires, bajo la supervisión del Dr. Huberto Anaya.</li>
+    <li>2010 al presente Investigador de medio tiempo en el Instituto de Investigaciones monetarias de la Universidad Nacional Autónoma de Argentina</li>
+
+
+
+    <p id="skills">Cualidades mias a tener en cuenta</p>
+
+    <button type="button " id="boton">CUALIDADES</button>
+
+
+    <script src="js funtions.js"></script>
+
+<script>
+const persona = '{"nombre"="Logan Dean", "email"="logan.dean@gmail.com", "nacionalidad"="Argentina",}';
+const obj = JSON.parse(persona);
+console.log(obj);
+document.getElementById("demo").innerHTML =
+ "nombre: " +obj.nombre +
+ "|email: "+obj.email+
+ "|nacionalidad:  "+obj.nacionalidad;
+
+
+</script>
+
+
+
+</body>
+</html>
